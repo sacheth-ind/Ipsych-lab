@@ -1,9 +1,9 @@
 ---
 ---
 
-# sacheth-ind's Website
+# Interventional Psychiatry Lab
 
-An engaging 1-3 sentence description of your lab.
+ Our lab aims to advance understanding of the neurobiology of severe mental disorders, with a particular focus on schizophrenia. We combine cognitive, behavioural and electrophysiological approaches with neuromodulation to investigate underlying mechanisms and develop therapeutic strategies.
 
 {% include section.html %}
 
