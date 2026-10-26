@@ -16,11 +16,16 @@
 >
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
-      <span class="logo">
+   <span class="logo"
+  style="width: {% if page.url == '/' %}240px{% else %}90px{% endif %}; height: auto; max-width: 60vw;">
         {% if svg %}
           {{ svg | file_read }}
         {% else %}
-          <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+    <img
+  src="{{ logo | relative_url | uri_escape }}"
+  alt="Interventional Psychiatry Laboratory logo"
+  style="display: block; width: 100%; height: auto; object-fit: contain;"
+>
         {% endif %}
       </span>
     {% endif %}
