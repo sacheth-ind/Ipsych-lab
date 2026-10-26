@@ -7,21 +7,14 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Ongoing Projects
 
-{% include section.html %}
+### A double-blind randomized placebo-controlled trial of Urolithin for deficit symptoms in schizophrenia: Focus on dysfunctional mitophagy
 
-## Highlighted
+### Clinical and neural correlates of visual processing and time perception in schizophrenia
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+### Modulating self-referential and interoceptive processes using transcranial alternating current stimulation (tACS): An open-label study to enhance recovery in schizophrenia
 
-{% include section.html %}
-
-## All
-
-{% include search-box.html %}
-
-{% include search-info.html %}
+### Design, Development and Testing of Transcranial Focused Ultrasonic Stimulation (tFUS) Device for Cognitive Enhancement in Military Scenario
 
 {% include list.html data="citations" component="citation" style="rich" %}
